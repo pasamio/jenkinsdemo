@@ -6,7 +6,7 @@
 	<body>
 		<h1>About</h1>
 		<hr />
-		<p><a href="index.php">Home</a> - <b>About</b></p>
+		<?php include "nav.php" ?>
 		<hr />
 		<p><?php echo date(time()) ?></p>
 	</body>

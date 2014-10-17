@@ -6,7 +6,7 @@
 	<body>
 		<h1>Test Pull Request</h1>
 		<hr />
-		<p><b>Home</b> - <a href="about.php">About</a></p>
+		<?php include "nav.php" ?>
 		<hr />
 		<?php phpinfo() ?>
 	</body>
